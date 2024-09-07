@@ -22,5 +22,42 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//              Operations     //
+
+
+let value = 4
+let negvalue = -value
+
+// console.log(negvalue);
+
+let str1 = "hamza"
+let str2 = "bajwa"
+
+// console.log(str1 + str2);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+/* don't use above methods they don't look good */
+
+// console.log(+true)  not good method for conversion
+
+let num1, num2 , num3
+
+num1 = num2 = num3 = 2 + 2  // not to define multiple variables for same value
+
+let gameCounter = 10
+gameCounter++;
+// console.log(gameCounter); postfix and prefix increment 
+
+// postfix prints value then increment whereas prefix increments value then store it. 
+
+// refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
