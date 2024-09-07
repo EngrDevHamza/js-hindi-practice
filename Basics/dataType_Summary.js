@@ -19,7 +19,7 @@ let userEmail; // => undefined
 const Id = Symbol("123")
 const anotherId = Symbol ("123")
 
-console.log(Id == anotherId); // => Flase
+// console.log(Id == anotherId); // => Flase
 
 const bigNumber = 1231241231231123n
 
@@ -47,4 +47,32 @@ const myFunction = function(){
     
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+
+
+// ++++++++++++++++++ Memory 
+
+
+// Stack (Primitive), Heap Memory (non-Primitive)
+
+let myYoutubeName = "Pakistani_Ninja"
+
+let anotherName = myYoutubeName
+// console.log(myYoutubeName)
+
+anotherName = "Hamzachannel"
+// console.log(anotherName)
+
+let userOne = {
+    email : "userOne@gmail.com",
+    password : "abc123",
+}
+
+let userTwo = userOne
+
+userTwo.email = "userTwo@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
